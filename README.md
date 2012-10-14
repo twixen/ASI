@@ -1,2 +1,4 @@
-Przedmiot: Architektura Serwisów Internetowych
-Prowadzący: Włodzimierz Bzyl
+Architektura Serwisów Internetowych
+==
+dr Włodzimierz Bzyl
+--
