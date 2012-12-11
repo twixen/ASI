@@ -11,7 +11,7 @@ class ChapSevenController < ApplicationController
     render :template=>'app/map_div'
   end
 
-  def client_common_point
+  def client_common_point 
     @points = Tower.find(:all,
           :select=>"latitude, longitude",
           :conditions=>['longitude > ? AND longitude < ? AND latitude <= ? AND latitude >= ?',-73.3996,-71.7517,42.5894,41.570251]) 
